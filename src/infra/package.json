@@ -2,7 +2,7 @@
   "name": "@labs-aws-serverless/infra",
   "version": "0.1.0",
   "bin": {
-    "labs-aws-serverless": "bin/main.js"
+    "infra": "bin/main.js"
   },
   "scripts": {
     "build": "tsc",
@@ -26,8 +26,9 @@
     "@aws-cdk/aws-lambda": "^1.204.0",
     "@aws-cdk/aws-lambda-nodejs": "^1.204.0",
     "@aws-cdk/aws-logs": "^1.204.0",
+    "@aws-cdk/aws-s3": "^1.204.0",
     "@aws-cdk/core": "^1.204.0",
-    "aws-cdk-lib": "2.133.0",
+    "aws-cdk-lib": "^2.133.0",
     "constructs": "^10.0.0",
     "esbuild": "^0.20.2",
     "source-map-support": "^0.5.21"
